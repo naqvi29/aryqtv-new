@@ -127,7 +127,7 @@ export async function getServerSideProps(context) {
   const res = await fetch('https://api.dailymotion.com/video/' + id + '?fields=id%2Cowner%2Cowner.playlists_total%2Cplayer_next_video.duration%2Cplayer_next_video.likes_total%2Cviews_total%2Curl%2Cembed_url%2Caspect_ratio%2Cchannel%2Clikes_total%2Cthumbnail_720_url%2Cthumbnail_180_url%2Cthumbnail_480_url%2Cthumbnail_360_url%2Ctitle%2Cdescription%2Cchannel.description%2Cowner.description%2Ctags%2Cchannel%2Cowner%2Cduration')
   const data = await res.json()
 
-  const res1 = await fetch('https://api.dailymotion.com/video/' + id + '/playlists?owner=x1bx0w0')
+  const res1 = await fetch('https://api.dailymotion.com/video/' + id + '/playlists?owner='+process.env.channelID)
   const data1 = await res1.json()
 
   // Pass data to the page via props

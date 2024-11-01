@@ -2,151 +2,151 @@
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://localhost:3000/404</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/about-us</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/archiveplaylists</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/blog</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/blogs-old</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/blogs</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/contact-us</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/index-old</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/latestvideos-old</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/latestvideos</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/livevideo</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/on-air</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/popularplaylists</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/privacy-policy</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/schedule</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/ScheduleHome</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/search</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/sitemap</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/[id]</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/author/[id]</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/blog/[id]</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/playlist/[id]</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://localhost:3000/video/v1/[id]</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/video/v2/[id]</loc>
-    <lastmod>2024-10-26T12:32:46.875Z</lastmod>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://localhost:3000/video/v1/[id]</loc>
+    <lastmod>2024-11-01T07:32:20.209Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>

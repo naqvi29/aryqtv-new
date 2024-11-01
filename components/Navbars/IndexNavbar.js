@@ -23,7 +23,7 @@ export default function Navbar(props) {
     <>
 
 
-      <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-181818 shadow">
+      <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-1 navbar-expand-lg bg-qtv shadow">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/">
@@ -31,7 +31,7 @@ export default function Navbar(props) {
                 className="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 whitespace-nowrap uppercase"
                 href="#"
               >
-                <img width="50%" src="/img/digital-logo.gif" />
+                <img width="50%" src="/img/aryqtv.jpg" />
               </a>
             </Link>
             <button
@@ -44,7 +44,7 @@ export default function Navbar(props) {
           </div>
           <div
             className={
-              "lg:flex flex-grow items-center lg:bg-opacity-0 lg:shadow-none " +
+              "lg:flex flex-grow items-center lg:bg-opacity-0 lg:shadow-none  " +
               (navbarOpen ? " block" : " hidden")
             }
             id="example-navbar-warning"
@@ -54,9 +54,9 @@ export default function Navbar(props) {
                 className=""
                 href="/"
               >
-                <li className="hover:text-white-500 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold cursor-pointer">
+                <li className="hover:text-white-500 text-white2 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold cursor-pointer">
 
-                  <i className="text-yellow fas fa-home text-md leading-lg mr-2" />{" "}
+                  <i className="text-white2 fas fa-home text-md leading-lg mr-2" />{" "}
                   Home
 
                 </li>
@@ -64,10 +64,10 @@ export default function Navbar(props) {
               <Link href="/latestvideos"
                 className=""
               >
-                <li className="flex items-center hover:text-white-500 text-white px-3 py-4 lg:py-2 text-xs uppercase font-bold cursor-pointer">
+                <li className="flex items-center hover:text-white-500 text-white2 px-3 py-4 lg:py-2 text-xs uppercase font-bold cursor-pointer">
 
 
-                  <i className="text-yellow fas fa-video text-md leading-lg mr-2" />{" "}
+                  <i className="text-white2 fas fa-video text-md leading-lg mr-2" />{" "}
                   Latest Videos
 
 
@@ -77,31 +77,31 @@ export default function Navbar(props) {
               <Link href="/on-air"
                 className=""
               >
-                <li className="hover:text-white-500 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold cursor-pointer">
+                <li className="hover:text-white-500 text-white2 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold cursor-pointer">
 
-                  <i className="text-yellow fas fa-file text-md leading-lg mr-2" />{" "}
+                  <i className="text-white2 fas fa-file text-md leading-lg mr-2" />{" "}
                   ON AIR
 
                 </li>
               </Link>
 
-              <Link href="/popularplaylists"
+              {/* <Link href="/popularplaylists"
                 className=""
               >
-                <li className="hover:text-white-500 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold cursor-pointer">
+                <li className="hover:text-white-500 text-white2 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold cursor-pointer">
 
-                  <i className="text-yellow fas fa-file text-md leading-lg mr-2" />{" "}
+                  <i className="text-white2 fas fa-file text-md leading-lg mr-2" />{" "}
                   Popular
 
                 </li>
-              </Link>
+              </Link> */}
 
               <Link href="/archiveplaylists"
                 className=""
               >
-                <li className="hover:text-white-500 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold cursor-pointer">
+                <li className="hover:text-white-500 text-white2 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold cursor-pointer">
 
-                  <i className="text-yellow fas fa-archive text-md leading-lg mr-2" />{" "}
+                  <i className="text-white2 fas fa-archive text-md leading-lg mr-2" />{" "}
                   Archive
 
                 </li>
@@ -110,36 +110,34 @@ export default function Navbar(props) {
               <Link href="/schedule"
                 className=""
               >
-                <li className="hover:text-white-500 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold cursor-pointer">
-
-                  <i className="text-yellow fas fa-clock text-md leading-lg mr-2" />{" "}
+                <li className="hover:text-white-500 text-white2 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold cursor-pointer">
+                  <i className="text-white2 fas fa-calendar-week text-md leading-lg mr-2" />{" "}
                   Schedule
-
                 </li>
               </Link>
 
               <Link href="/blogs"
                 className=""
               >
-                <li className="hover:text-white-500 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold cursor-pointer">
-
-                  <i className="text-yellow fas fa-clock text-md leading-lg mr-2" />{" "}
-                  EDITORIAL
+                <li className="hover:text-white-500 text-white2 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold cursor-pointer">
+                
+                  <i className="text-white2 fas fa-feather-alt text-md leading-lg mr-2" />{" "}
+                  BLOGS
 
                 </li>
               </Link>
               {/* <Link href="/schedule"
                 className=""
               >
-                <li className="hover:text-white-500 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold cursor-pointer">
+                <li className="hover:text-white-500 text-white2 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold cursor-pointer">
 
-                  <i className="text-yellow fas fa-clock text-md leading-lg mr-2" />{" "}
+                  <i className="text-white2 fas fa-clock text-md leading-lg mr-2" />{" "}
                   Schedule
 
                 </li>
               </Link> */}
             </ul>
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto mobileSocial">
+            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto mobileSocial ">
               {/* <li className="flex items-center">
                 <IndexDropdown />
               </li> */}
@@ -160,10 +158,10 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-1 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://www.facebook.com/arydigital.tv/"
+                  href="https://www.facebook.com/ARYQTV/"
                   target="_blank"
                 >
-                  <i className="text-blueGray-400 fab fa-facebook leading-lg " />
+                  <i className="text-white2 fab fa-facebook leading-lg " />
                   {/* <span className="lg:hidden inline-block ml-2">Share</span> */}
                 </a>
               </li>
@@ -171,10 +169,10 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-1 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://twitter.com/arydigitalasia?lang=en"
+                  href="https://twitter.com/aryqtv"
                   target="_blank"
                 >
-                  <i className="text-blueGray-400 fab fa-twitter leading-lg " />
+                  <i className="text-white2 fab fa-twitter leading-lg " />
                   {/* <span className="lg:hidden inline-block ml-2">Tweet</span> */}
                 </a>
               </li>
@@ -182,63 +180,63 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-1 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://www.instagram.com/arydigital.tv/?hl=en"
+                  href="https://www.instagram.com/aryqtv/"
                   target="_blank"
                 >
-                  <i className="text-blueGray-400 fab fa-instagram leading-lg " />
-                  {/* <span className="lg:hidden inline-block ml-2">Star</span> */}
+                  <i className="text-white2 fab fa-instagram leading-lg " />
+                  {/* <span className="lg:hidden inline-block ml-2">Star</span> */}+
                 </a>
               </li>
 
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-1 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://www.tiktok.com/@arydigitalasia?lang=en"
                   target="_blank"
                 >
-                  <i className="text-blueGray-400 fab fa-tiktok leading-lg " />
+                  <i className="text-white2 fab fa-tiktok leading-lg " />
        
                 </a>
-              </li>
+              </li> */}
 
               <li className="flex items-center">
                 <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-1 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://www.youtube.com/channel/UC4JCksJF76g_MdzPVBJoC3Q"
+                  href="https://www.youtube.com/channel/UCE2oY4S4wOu6WofU2YbfWsw"
                   target="_blank"
                 >
-                  <i className="text-blueGray-400 fab fa-youtube leading-lg " />
+                  <i className="text-white2 fab fa-youtube leading-lg" />
 
                 </a>
               </li>
               
 
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-1 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://www.snapchat.com/add/arydigital.tv"
                   target="_blank"
                 >
-                  <i className="text-blueGray-400 fab fa-snapchat leading-lg" />
+                  <i className="text-white2 fab fa-snapchat leading-lg" />
 
                 </a>
-              </li>
+              </li> */}
              
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-1 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://webmail.arydigital.tv/"
                   target="_blank"
                 >
-                  <i className="text-blueGray-400 fa fa-envelope leading-lg" />
+                  <i className="text-white2 fa fa-envelope leading-lg" />
 
                 </a>
-              </li>
+              </li> */}
 
-              <Link href="https://live.arydigital.tv">
+              <Link href="https://live.aryqtv.tv/">
                 <li className="flex items-center">
                   <button
-                    className="bg-yellow text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                    className="bg-white text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                     type="button"
                   >
                     <i className="fas fa-tv"></i>{" "} Watch LIVE

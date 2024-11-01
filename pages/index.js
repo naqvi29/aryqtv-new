@@ -82,13 +82,13 @@ export default function Index() {
 
       </section>
 
-      <div className='mainSlider'>
+      {/* <div className='mainSlider'>
       <center>
       <MainSlider />
       </center>
-      </div>
+      </div> */}
 
-      <section class="onAir">
+      {/* <section class="onAir">
 
         <div class="container-fluid bg-gradient-golden">
 
@@ -106,7 +106,7 @@ export default function Index() {
 
           </div>
         </div>
-      </section>
+      </section> */}
 
 
       <section className="pb-40 relative bg-black">
@@ -116,12 +116,12 @@ export default function Index() {
 
 
           </div>
-          <CardVideos title="LATEST VIDEOS" category="latest" />
+          <CardVideos title="LATEST VIDEOS" category="latest"/>
 
-          <PlaylistSlider title="ON AIR" id="0" category="DIGITAL: On Air" />
+          <PlaylistSlider title="ON AIR" id="0" category="QTV ON AIR" />
 
 
-          <PlaylistSlider title="SHOWS" id="0" category="DIGITAL: Shows" slides="3" />
+          <PlaylistSlider title="FEATURED" id="0" category="QTV FEATURED" slides="3" />
 
           {/* Blogs */}
 
@@ -131,7 +131,7 @@ export default function Index() {
 
           {/* Blogs */}
 
-          <Blogs category="drama-reviews" title="EDITORIAL"  />
+          {/* <Blogs category="drama-reviews" title="EDITORIAL"  /> */}
 
           {/* Blogs */}
           {playlists ? playlists.series.slice(0, 4).map((item, i) =>
@@ -145,7 +145,7 @@ export default function Index() {
           <CardVideos title={process.env.playlist3_title} category={process.env.playlist3} /> */}
 
 
-          <PlaylistSlider title="POPULAR" id="2" category="DIGITAL: Popular" />
+          {/* <PlaylistSlider title="POPULAR" id="2" category="DIGITAL: Popular" /> */}
 
           {/* Feature Section Start*/}
           {/* <div className="container mx-auto items-center flex flex-wrap pt-20">
@@ -185,7 +185,7 @@ export default function Index() {
 
           {/* Feature Section End*/}
 
-          <PlaylistSlider title="ARCHIVE DRAMAS" id="1" category="DIGITAL: Archive"/>
+          <PlaylistSlider title="ARCHIVE" id="1" category="QTV ARCHIVE"/>
         </div>
 
         {/* <Catfish /> */}

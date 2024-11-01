@@ -34,7 +34,7 @@ export default function PlaylistSlider({ title, id, category }) {
     infinite: totalSlides > 5, // Disable infinite if less than 5 slides
     autoplay: false,
     speed: 500,
-    slidesToShow: playlistTitle === "SHOWS" ? 3 : Math.min(totalSlides, 5), // Adjust slidesToShow
+    slidesToShow: playlistTitle === "FEATURED" ? 3 : 5, // Adjust slidesToShow
     slidesToScroll: 1,
     pauseOnHover: true,
     fade: false,
@@ -100,7 +100,13 @@ export default function PlaylistSlider({ title, id, category }) {
             key={i}
           >
             <div className="Extra cursor-pointer">
-              <img src={"https://node.aryzap.com/public/" + item.imagePoster} alt={item.title} />
+            <img
+              src={`https://node.aryzap.com/public/${
+                playlistTitle === "FEATURED" ? item.imageCoverMobile : item.imagePoster
+              }`}
+              alt={item.title}
+            />
+
       
             </div>
           </Link>

@@ -52,7 +52,7 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>ARY Digital - Watch All ARY Digital Dramas</title>
+          <title>ARYQTV | ARY QTV is the 1st religious channel being broadcast from Pakistan. You Can Watch Scholors Programs, Naats , Hadeeth, Tilawat-e-Quran majid</title>
           <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
         </Head>
       

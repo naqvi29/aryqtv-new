@@ -132,14 +132,14 @@ fetch('https://api.dailymotion.com/playlist/'+category+'/videos?fields=owner%2Ct
    <div className="text-center mt-5 mb-5">
 					{prevPage > 0 ?
           <button onClick={() => prev()}
-          className="bg-yellow text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+          className="bg-yellow text-white2 active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
           type="button"> Previous </button>
 					: null } 
 					<span>  </span>
 					{playlists && playlists.list.length > 7 ?
 
             <button onClick={() => next()}
-            className="bg-yellow text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+            className="bg-yellow text-white2 active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
             type="button"> Next </button>
 
 				
